@@ -1,0 +1,3 @@
+[submodule "kali-ansible"]
+	path = kali-ansible
+	url = git@github.com:rob0tster/kali-ansible.git
