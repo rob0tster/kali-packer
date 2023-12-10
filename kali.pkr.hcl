@@ -11,8 +11,8 @@ source "vmware-iso" "basic-example" {
   vm_name = "kali"
   cpus = "4"
   memory = "9972"
-  iso_checksum = "aeb29db6cf1c049cd593351fd5c289c8e01de7e21771070853597dfc23aada28"
-  iso_url = "https://cdimage.kali.org/kali-2022.4/kali-linux-2022.4-installer-amd64.iso"
+  iso_checksum = "49f6826e302659378ff0b18eda28121dad7eeab4da3b8d171df034da4996a75e"
+  iso_url = "https://cdimage.kali.org/kali-2023.4/kali-linux-2023.4-installer-amd64.iso"
   ssh_username = "botster"
   ssh_password = "botster"
   ssh_wait_timeout = "60m"
@@ -21,7 +21,7 @@ source "vmware-iso" "basic-example" {
   shutdown_command = "sudo -S shutdown -P now"
   boot_wait = "5s"
   disk_size = "80000"
-  output_directory = "/home/botster/vmware/kali-test"
+  output_directory = "C:\\Users\\danbo\\Documents\\kali"
   http_directory = "http"
   boot_command = [
       "<esc><wait>",
